@@ -1,1 +1,75 @@
+proxies:
+  - name: 47,610 GB - 2023-11-17 23:42:02
+    type: vmess
+    server: cpanel.iptunnels.com
+    port: 80  # Use the first port from the list
+    uuid: 6bdb12df-a2fa-409b-8746-c2307ac5815a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    ws-opts:
+      path: /buy-vmess-ws-pm-telegram-at-synricha   
+      headers:
+        Host: Open.spotify.com
+    udp: true  # Add UDP support
 
+  - name: 15,267 GB - 2023-11-18 16:22:01
+    type: vless
+    server: cpanel.iptunnels.com
+    port: 80  # Use the first port from the list
+    uuid: f6685676-f9ee-4c73-9202-06d172f7a398
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    ws-opts:
+      path: /buy-vless-ws-pm-telegram-at-synricha   
+      headers:
+        Host: Open.spotify.com
+    udp: true  # Add UDP support
+
+  - name: 44,549 GB - 2023-11-16 20:14:02
+    type: vmess
+    server: jala.iptunnels.com
+    port: 80  # Use the first port from the list
+    uuid: b1d9114c-a94a-4f63-9cc3-d4e1cebb96d5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    ws-opts:
+      path: /buy-vmess-ws-pm-telegram-at-synricha   
+      headers:
+        Host: Open.spotify.com
+    udp: true  # Add UDP support
+
+  - name: 99,169 GB - 2023-11-15 07:46:02
+    type: vless
+    server: jala.iptunnels.com
+    port: 80  # Use the first port from the list
+    uuid: 0140d911-3aa4-4649-b427-605f3a2fb516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    ws-opts:
+      path: /buy-vless-ws-pm-telegram-at-synricha   
+      headers:
+        Host: Open.spotify.com
+    udp: true  # Add UDP support
+
+  - name: 0,010 GB - 2023-11-18 19:40:03
+    type: vmess
+    server: jala.iptunnels.com
+    port: 80  # Use the first port from the list
+    uuid: 0048d023-7ed2-4a9a-908f-71cb6c937283
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    ws-opts:
+      path: /buy-vmess-ws-pm-telegram-at-synricha   
+      headers:
+        Host: Open.spotify.com
+    udp: true  # Add UDP support
