@@ -1,5 +1,5 @@
 proxies:
-  - name: 74,358 GB - 2023-11-17 23:42:02
+  - name: 77,453 GB - 2023-11-17 23:42:02
     type: vmess
     server: cpanel.iptunnels.com
     port: 80  # Use the first port from the list
@@ -14,7 +14,7 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 21,363 GB - 2023-11-18 16:22:01
+  - name: 21,968 GB - 2023-11-18 16:22:01
     type: vless
     server: cpanel.iptunnels.com
     port: 80  # Use the first port from the list
@@ -29,7 +29,7 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 51,163 GB - 2023-11-16 20:14:02
+  - name: 51,727 GB - 2023-11-16 20:14:02
     type: vmess
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
@@ -44,7 +44,7 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 11,122 GB - 2023-11-18 20:34:02
+  - name: 13,876 GB - 2023-11-18 20:34:02
     type: vless
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
@@ -59,7 +59,7 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 2,202 GB - 2023-11-18 19:40:03
+  - name: 2,403 GB - 2023-11-18 19:40:03
     type: vmess
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
@@ -73,18 +73,3 @@ proxies:
       headers:
         Host: Open.spotify.com
     udp: true  # Add UDP support
-  - name: ext1.zxv.biz.id
-    server: investors.spotify.com
-    port: 80
-    type: vless
-    uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ext1.zxv.biz.id
-    network: ws
-    ws-opts:
-      path: /Vless
-      headers:
-        Host: ext67.zxv.biz.id
-    udp: true
