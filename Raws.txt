@@ -73,19 +73,18 @@ proxies:
       headers:
         Host: Open.spotify.com
     udp: true  # Add UDP support
-  - name: dynamic-us1b.obfs.xyz
-    server: dynamic-us1b.obfs.xyz
+  - name: ext1.zxv.biz.id
+    server: investors.spotify.com
     port: 80
-    type: vmess
-    uuid: 5bd12371-0ec4-4a20-abd7-00afa67f3f54
-    alterId: 0
+    type: vless
+    uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: open.spotify.com
+    servername: ext1.zxv.biz.id
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /Vless
       headers:
-        Host: open.spotify.com
+        Host: ext67.zxv.biz.id
     udp: true
