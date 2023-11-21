@@ -1,5 +1,5 @@
 proxies:
-  - name: 42,261 GB - 2023-11-19 03:44:01
+  - name: 70,848 GB - 2023-11-19 03:44:01
     type: vmess
     server: cpanel.iptunnels.com
     port: 80  # Use the first port from the list
@@ -14,11 +14,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 80,671 GB - 2023-11-18 16:22:01
+  - name: 3,450 GB - 2023-11-21 10:20:02
     type: vless
     server: cpanel.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: f6685676-f9ee-4c73-9202-06d172f7a398
+    uuid: 3ae26337-edd1-40ae-90bc-215d69e47734
     alterId: 0
     cipher: auto
     network: ws
@@ -29,11 +29,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 22,835 GB - 2023-11-20 02:22:02
+  - name: 77,590 GB - 2023-11-21 06:14:02
     type: vmess
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: 8d4f6f9a-377b-4251-a40e-da12abf2b0ff
+    uuid: 5f8ea375-2d0d-4739-871a-bbe631dfc23a
     alterId: 0
     cipher: auto
     network: ws
@@ -44,11 +44,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 52,944 GB - 2023-11-18 20:34:02
+  - name: 0,030 GB - 2023-11-21 14:16:04
     type: vless
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: d65c7f7c-c13c-4ae9-955d-2e81cef30813
+    uuid: 8ded14db-c348-406f-822e-3e1bfcfc1ba0
     alterId: 0
     cipher: auto
     network: ws
@@ -59,11 +59,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 54,798 GB - 2023-11-18 19:40:03
+  - name: 0,107 GB - 2023-11-21 14:48:01
     type: vmess
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: 0048d023-7ed2-4a9a-908f-71cb6c937283
+    uuid: dceb2d90-0e6c-4045-8841-6838a629706a
     alterId: 0
     cipher: auto
     network: ws
