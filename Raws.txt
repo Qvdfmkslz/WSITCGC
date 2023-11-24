@@ -73,3 +73,19 @@ proxies:
       headers:
         Host: Open.spotify.com
     udp: true  # Add UDP support
+  - name: dynamic-sg1b.obfs.xyz
+    server: dynamic-sg1b.obfs.xyz
+    port: 80
+    type: vmess
+    uuid: b0437ccd-08aa-4c74-8f31-27cbed8a2de6
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: open.spotify.com
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: open.spotify.com
+    udp: true
