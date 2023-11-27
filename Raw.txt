@@ -15,6 +15,23 @@ proxies:
       headers: 
         Host: open.spotify.com
     udp: true
+  - name: dynamic-sg2b.obfs.xyz
+    server: dynamic-sg2b.obfs.xyz
+    port: 80
+    type: vmess
+    uuid: 22a48c4c-78c9-4789-83e6-ea8f1630ef9f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: open.spotify.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: open.spotify.com
+        v2ray-http-upgrade: true
+    udp: true
   - name: v2ray1.udpgw.com
     server: v2ray1.udpgw.com
     port: 80
