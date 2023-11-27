@@ -23,7 +23,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: true
+    skip-cert-verify: false
     servername: open.spotify.com
     network: ws
     ws-opts:
