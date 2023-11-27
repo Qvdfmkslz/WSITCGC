@@ -30,7 +30,6 @@ proxies:
       path: /worryfree
       headers:
         Host: open.spotify.com
-        v2ray-http-upgrade: true
     udp: true
   - name: v2ray1.udpgw.com
     server: v2ray1.udpgw.com
