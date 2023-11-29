@@ -15,125 +15,20 @@ proxies:
       headers: 
         Host: open.spotify.com
     udp: true
-  - name: dynamic-sg2b.obfs.xyz
-    server: dynamic-sg2b.obfs.xyz
+  - name: v2ray2.udpgw.com
+    server: v2ray2.udpgw.com
     port: 80
     type: vmess
-    uuid: 22a48c4c-78c9-4789-83e6-ea8f1630ef9f
+    uuid: 7e4d2f97-0579-4f49-bcb1-ff77c8e7d8cf
     alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: false
+    skip-cert-verify: true
     servername: open.spotify.com
     network: ws
     ws-opts:
       path: /worryfree
       headers:
+        v2ray-http-upgrade: true
         Host: open.spotify.com
-    udp: true
-  - name: v2ray1.udpgw.com
-    server: v2ray1.udpgw.com
-    port: 80
-    type: vmess
-    uuid: ffb391b7-c57e-4ee2-a5e7-ac12eb9d7241
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: open.spotify.com
-    network: ws
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: open.spotify.com
-    udp: true
-  - name: cx3.ntr.biz.id
-    server: investors.spotify.com
-    port: 80
-    type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: investors.spotify.com
-    network: ws
-    ws-opts: 
-      path: /Vless
-      headers: 
-        Host: cx3.ntr.biz.id
-    udp: true
-  - name: cx7.ntr.biz.id
-    server: investors.spotify.com
-    port: 80
-    type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: investors.spotify.com
-    network: ws
-    ws-opts: 
-      path: /Vless
-      headers: 
-        Host: cx7.ntr.biz.id
-    udp: true
-  - name: cx8.ntr.biz.id
-    server: investors.spotify.com
-    port: 80
-    type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: cx8.ntr.biz.id
-    network: ws
-    ws-opts: 
-      path: /Vless
-      headers: 
-        Host: cx8.ntr.biz.id
-    udp: true
-  - name: cx10.ntr.biz.id
-    server: investors.spotify.com
-    port: 80
-    type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: investors.spotify.com
-    network: ws
-    ws-opts: 
-      path: /Vless
-      headers: 
-        Host: cx10.ntr.biz.id
-    udp: true
-  - name: cx11.ntr.biz.id
-    server: investors.spotify.com
-    port: 80
-    type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: cx11.ntr.biz.id
-    network: ws
-    ws-opts: 
-      path: /Vless
-      headers: 
-        Host: cx8.ntr.biz.id
-    udp: true
-  - name: cx16.ntr.biz.id
-    server: investors.spotify.com
-    port: 80
-    type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: cx16.ntr.biz.id
-    network: ws
-    ws-opts: 
-      path: /Vless
-      headers: 
-        Host: cx8.ntr.biz.id
     udp: true
