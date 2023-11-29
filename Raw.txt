@@ -29,6 +29,5 @@ proxies:
     ws-opts:
       path: /worryfree
       headers:
-        v2ray-http-upgrade: true
         Host: open.spotify.com
     udp: true
