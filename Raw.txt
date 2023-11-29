@@ -17,7 +17,7 @@ proxies:
     udp: true
   - name: v2ray2.udpgw.com
     server: v2ray2.udpgw.com
-    port: 80
+    port: 8080
     type: vmess
     uuid: 7e4d2f97-0579-4f49-bcb1-ff77c8e7d8cf
     alterId: 0
@@ -30,4 +30,4 @@ proxies:
       path: /worryfree
       headers:
         Host: open.spotify.com
-    xudp: true
+    udp: true
