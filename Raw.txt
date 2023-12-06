@@ -1,17 +1,17 @@
 proxies:
-  - name: dynamic-sg1b.obfs.xyz
-    server: dynamic-sg1b.obfs.xyz
+  - name: vpnstunnel-hgbteft
+    server: investors.spotify.com
     port: 80
     type: vmess
-    uuid: caf6d761-20b5-43df-9a63-975c42bf1f5a
+    uuid: 3bcadb79-0229-404d-915a-e0c967346872
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: open.spotify.com
+    servername: id2.josvpn.me
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /vmess
       headers:
-        Host: open.spotify.com
+        Host: id2.josvpn.me
     udp: true
