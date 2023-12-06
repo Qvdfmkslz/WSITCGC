@@ -1,12 +1,12 @@
 proxies:
   - name: dynamic-sg1b.obfs.xyz
     server: dynamic-sg1b.obfs.xyz
-    port: 443
+    port: 80
     type: vmess
     uuid: caf6d761-20b5-43df-9a63-975c42bf1f5a
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: open.spotify.com
     network: ws
