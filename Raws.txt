@@ -1,9 +1,9 @@
 proxies:
-  - name: 1,648 GB - 2023-12-14 09:24:01
+  - name: 2,901 GB - 2023-12-17 03:10:02
     type: vmess
     server: cpanel.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: 6b7d5395-d1e9-4fa9-abcd-28832658bc06
+    uuid: 1c4d826c-aa47-432a-ab82-44d3dc8bfd9b
     alterId: 0
     cipher: auto
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 90,824 GB - 2023-12-10 23:52:02
+  - name: 8,278 GB - 2023-12-17 02:06:01
     type: vless
     server: cpanel.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: 0764213a-6dc7-4cf4-be7f-7a30424361c0
+    uuid: e8d0bcc1-d92e-460a-b223-d8842889e247
     alterId: 0
     cipher: auto
     network: ws
@@ -29,11 +29,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 27,545 GB - 2023-12-13 08:46:04
+  - name: 12,347 GB - 2023-12-16 17:08:02
     type: vmess
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: 4ecf4d14-a2a7-4e32-af02-d5ab940689be
+    uuid: 67a06a79-b653-4796-b160-cb94631cac4b
     alterId: 0
     cipher: auto
     network: ws
@@ -44,11 +44,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 7,690 GB - 2023-12-14 07:24:02
+  - name: 14,723 GB - 2023-12-16 20:08:02
     type: vless
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: f6dd8dbe-2580-4740-803d-29763432855a
+    uuid: f2f3925c-f3d6-4549-a356-6ba565885c38
     alterId: 0
     cipher: auto
     network: ws
@@ -59,11 +59,11 @@ proxies:
         Host: Open.spotify.com
     udp: true  # Add UDP support
 
-  - name: 96,743 GB - 2023-12-13 10:42:01
+  - name: 0,045 GB - 2023-12-17 04:38:02
     type: vmess
     server: jala.iptunnels.com
     port: 80  # Use the first port from the list
-    uuid: 772ce64c-61b4-41fb-b169-bdc66ac537e1
+    uuid: ef35b99e-6cb1-4930-ae35-8edff65e2441
     alterId: 0
     cipher: auto
     network: ws
